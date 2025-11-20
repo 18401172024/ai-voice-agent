@@ -41,19 +41,19 @@ function CandidateFeedbackDialog({candidate}) {
             <h2 className='font-bold'>Skills Assesment</h2>
             <div className='mt-3 grid grid-cols-2 gap-10'>
               <div>
-                <h2 className='flex justify-between'>Technical Skills <span>{feedback?.rating?.technicalSkills}/10</span></h2>
+                <h2 className='flex justify-between'>Technical Skills <span>{feedback?.rating?.technicalSkills}</span></h2>
                 <Progress value={(feedback?.rating?.technicalSkills || 0) * 10} className='mt-1'/>
               </div>
               <div>
-                <h2 className='flex justify-between'>Communication <span>{feedback?.rating?.communication}/10</span></h2>
+                <h2 className='flex justify-between'>Communication <span>{feedback?.rating?.communication}</span></h2>
                 <Progress value={feedback?.rating?.communication * 10} className='mt-1'/>
               </div>
               <div>
-                <h2 className='flex justify-between'>Problem Solving <span>{feedback?.rating?.problemSolving}/10</span></h2>
+                <h2 className='flex justify-between'>Problem Solving <span>{feedback?.rating?.problemSolving}</span></h2>
                 <Progress value={feedback?.rating?.problemSolving * 10} className='mt-1'/>
               </div>
               <div>
-                <h2 className='flex justify-between'>Experience <span>{feedback?.rating?.experience}/10</span></h2>
+                <h2 className='flex justify-between'>Experience <span>{feedback?.rating?.experience}</span></h2>
                 <Progress value={feedback?.rating?.experience * 10} className='mt-1'/>
               </div>
             </div>
