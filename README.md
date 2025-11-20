@@ -1,20 +1,49 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# AI Voice Agent — Interview Buddy
 
-First, run the development server:
+AI Voice Agent is an intelligent interview assistant designed to help users practice interviews, generate AI-based feedback, track performance, and improve overall interview preparation.  
+This project is built using **Next.js**, **Supabase**, and modern UI components to deliver a smooth, interactive, and AI-powered experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
+
+### 🎤 AI Voice Interview
+- Users can attempt interviews in a conversational voice-based format.
+- Real-time interaction powered by AI models.
+
+### 📄 Question Generation
+- Automatically generates interview questions based on the job role.
+- Supports both technical and non-technical interviews.
+
+### ⭐ Performance Feedback
+- Provides detailed AI-generated analysis after each interview.
+- Shows strengths, weaknesses, and improvement suggestions.
+
+### 📊 Dashboard & Tracking
+- Users can view all previous interviews.
+- Detailed interview progress and performance insights.
+
+### 🧭 Smooth Navigation
+- Clean UI with reusable components and structured layout.
+- Fully responsive and easy to use.
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **Next.js 14** (App Router)
+- **React**
+- **Tailwind CSS**
+- **Supabase**
+- **Lucide Icons**
+- **ShadCN UI Components**
+- **AI Model API Routes**
+
+---
+
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
