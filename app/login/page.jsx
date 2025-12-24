@@ -7,6 +7,7 @@ import { createClient } from '@supabase/supabase-js';
 
 
 
+
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
@@ -19,7 +20,8 @@ function Login() {
     const {error} = await supabase.auth.signInWithOAuth({
       provider:'google',
       options: {
-        redirectTo: `${window.location.origin}/dashboard`
+        //redirectTo: `${window.location.origin}/dashboard`
+        redirectTo: "https://ai-voice-agent-ezmy.vercel.app/dashboard"
       }
     })
     if(error){
