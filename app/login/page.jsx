@@ -19,8 +19,8 @@ function Login() {
     const {error} = await supabase.auth.signInWithOAuth({
       provider:'google',
       options: {
-        redirectTo: "https://ai-voice-agent-app1.vercel.app/dashboard"
-        //redirectTo: "http://localhost:3001/dashboard"
+        //redirectTo: "https://ai-voice-agent-app1.vercel.app/dashboard"
+        redirectTo: "http://localhost:3001/dashboard"
       }
     })
     if(error){
@@ -45,4 +45,9 @@ function Login() {
 }
 
 export default Login
+
+
+
+
+
 
